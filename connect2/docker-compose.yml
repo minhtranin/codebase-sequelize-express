@@ -5,7 +5,7 @@
     environment:
       POSTGRES_PASSWORD: tcm
     ports:
-      - 5433:5432
+      - 5436:5432
 
   # adminer:
   #   image: adminer

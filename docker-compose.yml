@@ -1,13 +1,14 @@
   db:
     image: postgres
+    container_name: connect1
     restart: always
     environment:
       POSTGRES_PASSWORD: example
     ports:
-      - 5432:5432
+      - 5435:5432
 
   adminer:
     image: adminer
     restart: always
     ports:
-      - 8080:8080
+      - 9345:8080
